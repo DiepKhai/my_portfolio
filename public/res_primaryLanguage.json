@@ -50,6 +50,44 @@
             "name": "Axios"
           }
         ]
+      },
+      {
+        "title": "GOAT Coffee",
+        "startDate": "2026",
+        "description": "A website built from TypeScript, showcasing a coffee shop's menu, promotions, and online ordering system. The site features a modern design with responsive layouts, allowing customers to easily browse products and place orders. It also includes an admin dashboard for managing inventory and orders.",
+        "projectImages": "images/portfolio/GoatCoffee/goat_home_1.png",
+        "images": [
+          "images/portfolio/GoatCoffee/goat_home_2.png",
+          "images/portfolio/GoatCoffee/goat_menu_1.png",
+          "images/portfolio/GoatCoffee/goat_menu_2.png",
+          "images/portfolio/GoatCoffee/goat_stories_1.png",
+          "images/portfolio/GoatCoffee/goat_profile_1.png",
+          "images/portfolio/GoatCoffee/goat_profile_2.png",
+          "images/portfolio/GoatCoffee/goat_cart_1.png"
+        ],
+        "url": "https://franchise-plus.vercel.app/",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "ReactTS"
+          },
+          {
+            "class": "devicon-tailwindcss-plain",
+            "name": "Tailwind"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-vercel-original",
+            "name": "Vercel"
+          },
+          {
+            "class": "devicon-cloudflare-plain",
+            "name": "Cloudinary"
+          }
+        ]
       }
     ],
     "experience": [

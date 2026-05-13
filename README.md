@@ -3,7 +3,7 @@
 Chào mừng đến với website Portfolio cá nhân của mình. Đây là nơi mình trưng bày các dự án và kỹ năng lập trình.
 
 ## 🚀 Live Demo
-👉 **Xem website tại đây:** [https://DiepKhai.github.io/my-portfolio/](https://DiepKhai.github.io/my-portfolio/)
+👉 **Xem website tại đây:** [https://DiepKhai.github.io/my_portfolio/](https://DiepKhai.github.io/my_portfolio/)
 
 ## 🛠 Công nghệ sử dụng
 

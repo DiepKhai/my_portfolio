@@ -5,19 +5,42 @@
 /.pnp
 .pnp.js
 
+# package manager caches
+.npm
+.yarn
+.pnpm-store
+
+# build outputs
+/dist
+
 # testing
 /coverage
 
 # production
 /build
 
+# tooling caches
+.eslintcache
+.stylelintcache
+.cache/
+.parcel-cache/
+
 # misc
 .DS_Store
+.env
+.env.*
+!.env.example
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
+# editors
+.vscode/
+.idea/
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+*.log

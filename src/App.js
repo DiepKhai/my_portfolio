@@ -10,6 +10,12 @@ import Skills from "./components/Skills";
 
 class App extends Component {
 
+  buildPublicUrl(path) {
+    const normalizedPath = String(path || "").replace(/^\/+/, "");
+    const base = String(process.env.PUBLIC_URL || "").replace(/\/+$/, "");
+    return `${base}/${normalizedPath}`;
+  }
+
   constructor(props) {
     super();
     this.state = {
@@ -52,29 +58,36 @@ class App extends Component {
 
   loadResumeFromPath(path) {
     $.ajax({
-      url: path,
+      url: this.buildPublicUrl(path),
       dataType: "json",
       cache: false,
       success: function (data) {
         this.setState({ resumeData: data });
       }.bind(this),
       error: function (xhr, status, err) {
-        alert(err);
+        const message = `Failed to load ${path} (${xhr?.status} ${xhr?.statusText || status})`;
+        // eslint-disable-next-line no-console
+        console.error(message, err);
+        alert(message);
       },
     });
   }
 
   loadSharedData() {
     $.ajax({
-      url: `portfolio_shared_data.json`,
+      url: this.buildPublicUrl("portfolio_shared_data.json"),
       dataType: "json",
       cache: false,
       success: function (data) {
         this.setState({ sharedData: data });
-        document.title = `${this.state.sharedData.basic_info.name}`;
+        document.title = `${data.basic_info?.name || ""}`;
       }.bind(this),
       error: function (xhr, status, err) {
-        alert(err);
+        const path = "portfolio_shared_data.json";
+        const message = `Failed to load ${path} (${xhr?.status} ${xhr?.statusText || status})`;
+        // eslint-disable-next-line no-console
+        console.error(message, err);
+        alert(message);
       },
     });
   }
