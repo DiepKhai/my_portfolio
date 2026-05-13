@@ -1,0 +1,60 @@
+{
+    "basic_info": {
+      "name": "Diệp Khai",
+      "titles": [ "Front-end Developer", "Software Engineering", "Web Design" ],
+      "phone": "0933431249",
+      "email": "aicungduoc49@gmail.com",
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/DiepKhai",
+          "class": "fab fa-github"
+        }
+      ],
+      "image": "anh_cv.jpg"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain",
+          "level": "85"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain",
+          "level": "80"
+        },
+        {
+          "name": "ReactJS",
+          "class": "devicon-react-original",
+          "level": "75"
+        },
+        {
+          "name": "NodeJS",
+          "class": "devicon-nodejs-plain",
+          "level": "70"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "65"
+        },
+        {
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain",
+          "level": "75"
+        },
+        {
+          "name": "Material UI",
+          "class": "devicon-materialui-plain",
+          "level": "50"
+        },
+        {
+          "name": "Microsoft SQL Server",
+          "class": "devicon-microsoftsqlserver-plain",
+          "level": "70"
+        }
+      ]
+    }
+  }

@@ -1,0 +1,91 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 I'm Diệp Khai, a passionate Front-end Developer specializing in React and NodeJS. I'm currently pursuing my studies in Software Engineering and building modern web applications. I love creating responsive, user-friendly interfaces and exploring new technologies. I'm eager to apply my skills in real-world projects and gain professional experience.",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Education"
+      }
+    },
+    "projects": [
+      {
+        "title": "EV Battery Swap Station Management System",
+        "startDate": "2025",
+        "description": "A comprehensive management system for electric vehicle battery swap stations. The system includes multiple user roles (Driver, Staff, Admin) with dedicated interfaces for each. Drivers can locate stations and swap batteries, Staff manage daily operations, and Admins oversee the entire system with analytics and reporting features.",
+        "projectImages": "images/portfolio/EVBSSMS/home_1.png",
+        "images": [
+          "images/portfolio/EVBSSMS/driver_1.png",
+          "images/portfolio/EVBSSMS/driver_2.png",
+          "images/portfolio/EVBSSMS/driver_3.png",
+          "images/portfolio/EVBSSMS/staff_1.png",
+          "images/portfolio/EVBSSMS/staff_2.png",
+          "images/portfolio/EVBSSMS/admin_1.png",
+          "images/portfolio/EVBSSMS/admin_2.png",
+          "images/portfolio/EVBSSMS/admin_3.png",
+          "images/portfolio/EVBSSMS/admin_4.png",
+          "images/portfolio/EVBSSMS/admin_5.png"
+        ],
+        "url": "https://github.com/hoangbaohuy/Swp391_EvBatterySwapStationManagementSystem",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "NodeJS"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-materialui-plain",
+            "name": "Material UI"
+          },
+          {
+            "class": "devicon-axios-plain",
+            "name": "Axios"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "FPT University",
+        "title": "Front-End Learner / Student",
+        "years": "2025 - Present",
+        "mainTech": [
+          "ReactJS"
+        ],
+        "technologies": [
+          "ReactJS",
+          "NodeJS",
+          "Git",
+          "REST API",
+          "CSS Modules",
+          "JavaScript",
+          "Material UI",
+          "Bootstrap",
+          "Axios"
+        ]
+      },
+      {
+        "company": "FPT University",
+        "title": "Freshman",
+        "years": "2023",
+        "mainTech": [
+          "Programming Basics"
+        ],
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Java",
+          "Database Fundamentals"
+        ]
+      }
+    ]
+  }

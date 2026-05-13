@@ -1,0 +1,87 @@
+{
+    "basic_info": {
+      "description_header": "Xin chào",
+      "description": "👋 Mình là Diệp Khai, một Front-end Developer đam mê chuyên về React và NodeJS. Hiện tại mình đang theo học ngành Kỹ thuật Phần mềm và xây dựng các ứng dụng web hiện đại. Mình yêu thích việc tạo ra các giao diện thân thiện với người dùng và khám phá những công nghệ mới. Mình mong muốn được áp dụng kỹ năng của mình vào các dự án thực tế và tích lũy kinh nghiệm làm việc chuyên nghiệp.",
+      "section_name": {
+        "about": "Giới thiệu",
+        "projects": "Dự án",
+        "skills": "Kỹ năng",
+        "experience": "Học vấn"
+      }
+    },
+    "projects": [
+      {
+        "title": "Hệ Thống Quản Lý Trạm Đổi Pin Xe Điện",
+        "startDate": "2024",
+        "description": "Hệ thống quản lý toàn diện cho các trạm đổi pin xe điện. Hệ thống bao gồm nhiều vai trò người dùng (Tài xế, Nhân viên, Quản trị viên) với giao diện chuyên dụng cho từng vai trò. Tài xế có thể tìm kiếm trạm và đổi pin, Nhân viên quản lý hoạt động hàng ngày, và Quản trị viên giám sát toàn bộ hệ thống với các tính năng phân tích và báo cáo.",
+        "projectImages": "images/portfolio/EVBSSMS/home_1.png",
+        "images": [
+          "images/portfolio/EVBSSMS/driver_1.png",
+          "images/portfolio/EVBSSMS/driver_2.png",
+          "images/portfolio/EVBSSMS/driver_3.png",
+          "images/portfolio/EVBSSMS/staff_1.png",
+          "images/portfolio/EVBSSMS/staff_2.png",
+          "images/portfolio/EVBSSMS/admin_1.png",
+          "images/portfolio/EVBSSMS/admin_2.png",
+          "images/portfolio/EVBSSMS/admin_3.png",
+          "images/portfolio/EVBSSMS/admin_4.png",
+          "images/portfolio/EVBSSMS/admin_5.png"
+        ],
+        "url": "https://github.com/DiepKhai",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "NodeJS"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Đại học FPT",
+        "title": "Sinh viên chuyên ngành Front-End",
+        "years": "2025 - Hiện tại",
+        "mainTech": [
+          "ReactJS"
+        ],
+        "technologies": [
+          "ReactJS",
+          "NodeJS",
+          "Git",
+          "REST API",
+          "CSS Modules",
+          "JavaScript",
+          "Material UI",
+          "Bootstrap",
+          "Axios"
+        ]
+      },
+      {
+        "company": "Đại học FPT",
+        "title": "Sinh viên năm nhất",
+        "years": "2023",
+        "mainTech": [
+          "Cơ bản lập trình"
+        ],
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Java",
+          "Cơ sở dữ liệu"
+        ]
+      }
+    ]
+  }
